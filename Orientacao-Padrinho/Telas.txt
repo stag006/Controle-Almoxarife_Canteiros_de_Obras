@@ -1,0 +1,157 @@
+	nome
+	codigo
+	
+	nome pai / mãe:
+	tpo
+
+documentos
+
+	cpf
+	RG
+	CTPS
+	Série CTPS	
+	PIS
+	Titulo de Eleitor
+	
+
+
+tela de cadastro de profissional
+
+Dados Cadastrais
+	código: double
+	nome funcionario: string
+	Sexo: string
+	Unidade / Setor: string
+	Função: string
+	Estado Civil: string
+	Nº Filhos
+	Endereço: string
+	Bairro:string
+	Cidade: string
+	Referencia: string
+	CEP: string
+	UF: string
+	e-mail: string
+	telefone Residencial: string
+	Telefone Comercial: string
+	Fax: string
+	Celular: string
+
+
+Documentos
+	Data de Nascimento: string
+	CPF:string
+	RG:string
+	C.Profs:string
+	S.C.Profs:string
+	Titulo de Eleitor - T.Eleit: string
+	CNH: string
+
+caracteristicas
+
+	altura: string
+	Peso: string
+	Cintura: string
+	Camisa: string
+	Calça: string
+	jaqueta:string
+	Calçados: int
+	Tipo de Sangue: string
+
+Tela de cadastro
+	Nome do Produto: string
+	Código Comercial: double
+	Código Patrimônio: double
+	Código CA: double
+	Grupo: EPI, EPC, MASTERIAIS, FERRAMENTAS e EQUIPAMENTOS - string
+
+	CATEGORIA: Segurança: string
+	Sub.Categoria: Calçados: string
+	Modelo / Marca: string
+	Cor: string
+	Tamanho: int
+	Unidade: int
+	Estoque: int
+	Estq.Max: int
+	Lixo: int
+Logisticas
+
+
+
+
+
+
+
+
+
+
+Tela principal - Estou em dúvidas ainda se terá essa tela, até porque só vai ter a figura do Almoxarife para coordenar né, mais acho interessante ter por causa da Segurança do Estoque
+Login
+Usuário::
+senha:
+
+Tela Cadastro de Material - 
+Cadastro de Insumos e Ferramentas
+código material
+Nome material:
+tipo de material: Insumos e ferramentas e materiais 
+Unidade: pç, saco, caixa
+Q. Estoque:
+Procurar
+
+Tela de Estoque - 
+código material
+Nome material: 
+tipo de material: Insumos e ferramentas e materiais
+Unidade: pç, saco, caixa
+Q. Estoque:
+Procurar
+
+
+
+Tela Cadastro de Funcionário - Não acho necessário ter todas essas informações, até porque é só um cadastro formal para saber quem pegou e o que pegou. Mesmo assim eu coloquei só pra ter uma idéia sobre o que colocar na tela de cadastro.
+
+Dados Cadastrais
+Dados Cadastrais
+	código: double
+	nome funcionario: string
+	Sexo: string
+	Unidade / Setor: string
+	Função: string
+	Estado Civil: string
+	Nº Filhos
+	Endereço: string
+	Bairro:string
+	Cidade: string
+	Referencia: string
+	CEP: string
+	UF: string
+	e-mail: string
+	telefone Residencial: string
+	Telefone Comercial: string
+	Fax: string
+	Celular: string
+
+
+Documentos
+	Data de Nascimento: string
+	CPF:string
+	RG:string
+	C.Profs:string
+	S.C.Profs:string
+	Titulo de Eleitor - T.Eleit: string
+	CNH: string
+
+
+caracteristicas
+
+
+	altura: string
+	Peso: string
+	Cintura: string
+	Camisa: string
+	Calça: string
+	jaqueta:string
+	Calçados: int
+	Tipo de Sangue: string
+
