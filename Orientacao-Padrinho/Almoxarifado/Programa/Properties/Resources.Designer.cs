@@ -73,6 +73,26 @@ namespace Programa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap OAllpaper003 {
+            get {
+                object obj = ResourceManager.GetObject("OAllpaper003", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap OAllpaper0031 {
+            get {
+                object obj = ResourceManager.GetObject("OAllpaper0031", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap trabalhador_1 {
             get {
                 object obj = ResourceManager.GetObject("trabalhador-1", resourceCulture);

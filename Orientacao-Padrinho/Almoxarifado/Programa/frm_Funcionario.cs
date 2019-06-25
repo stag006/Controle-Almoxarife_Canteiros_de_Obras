@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Programa
 {
-    public partial class Form1 : Form
+    public partial class frm_Funcionario : Form
     {
-        public Form1()
+        public frm_Funcionario()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
