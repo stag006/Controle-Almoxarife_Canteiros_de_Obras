@@ -109,19 +109,20 @@
             // transferenciaFerramentaToolStripMenuItem
             // 
             this.transferenciaFerramentaToolStripMenuItem.Name = "transferenciaFerramentaToolStripMenuItem";
-            this.transferenciaFerramentaToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.transferenciaFerramentaToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.transferenciaFerramentaToolStripMenuItem.Text = "Transferencia Ferramenta";
             // 
             // devoluçãoFerramentasToolStripMenuItem
             // 
             this.devoluçãoFerramentasToolStripMenuItem.Name = "devoluçãoFerramentasToolStripMenuItem";
-            this.devoluçãoFerramentasToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.devoluçãoFerramentasToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.devoluçãoFerramentasToolStripMenuItem.Text = "Devolução ferramentas";
+            this.devoluçãoFerramentasToolStripMenuItem.Click += new System.EventHandler(this.devoluçãoFerramentasToolStripMenuItem_Click);
             // 
             // solicitaçãoFerramentasToolStripMenuItem
             // 
             this.solicitaçãoFerramentasToolStripMenuItem.Name = "solicitaçãoFerramentasToolStripMenuItem";
-            this.solicitaçãoFerramentasToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.solicitaçãoFerramentasToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.solicitaçãoFerramentasToolStripMenuItem.Text = "Solicitação Ferramentas";
             // 
             // relatóriosToolStripMenuItem
@@ -165,7 +166,7 @@
             this.btn_cad_funcionario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_cad_funcionario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cad_funcionario.ForeColor = System.Drawing.Color.Black;
-            this.btn_cad_funcionario.Location = new System.Drawing.Point(42, 108);
+            this.btn_cad_funcionario.Location = new System.Drawing.Point(12, 200);
             this.btn_cad_funcionario.Name = "btn_cad_funcionario";
             this.btn_cad_funcionario.Size = new System.Drawing.Size(91, 74);
             this.btn_cad_funcionario.TabIndex = 2;
@@ -178,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkRed;
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(533, 286);
             this.Controls.Add(this.btn_cad_funcionario);
             this.Controls.Add(this.menuStrip1);
