@@ -16,15 +16,29 @@ namespace Programa
         {
             InitializeComponent();
         }
-
-        private void Button1_Click(object sender, EventArgs e)
+      
+        private void btn_cad_funcionario_Click_1(object sender, EventArgs e)
         {
-            
+            frm_Funcionario frm = new frm_Funcionario();
+            frm.Show();
         }
 
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        private void btn_cad_Obra_Click(object sender, EventArgs e)
         {
+            frm_Obras frm = new frm_Obras();
+            frm.Show();
+        }
 
+        private void funcionárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Funcionario frm = new frm_Funcionario();
+            frm.Show();
+        }
+
+        private void obraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Obras frm = new frm_Obras();
+            frm.Show();
         }
     }
 }

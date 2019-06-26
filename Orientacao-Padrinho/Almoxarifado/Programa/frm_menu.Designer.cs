@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.btn_cad_funcionario = new System.Windows.Forms.Button();
-            this.btn_cad_Obra = new System.Windows.Forms.Button();
+            this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.funcionárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.obraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ferramentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.insumoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materiaisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transferênciaFerramentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.devoluçãoFerrmanetaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.solicitaçãoFerramentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioGeralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioExpecificoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btn_cad_funcionario = new System.Windows.Forms.Button();
+            this.btn_cad_Obra = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,79 +63,6 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // btn_cad_funcionario
-            // 
-            this.btn_cad_funcionario.BackColor = System.Drawing.Color.Transparent;
-            this.btn_cad_funcionario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_cad_funcionario.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cad_funcionario.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_cad_funcionario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btn_cad_funcionario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_cad_funcionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cad_funcionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cad_funcionario.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_cad_funcionario.Image = global::Programa.Properties.Resources.trabalhador_2;
-            this.btn_cad_funcionario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_cad_funcionario.Location = new System.Drawing.Point(12, 41);
-            this.btn_cad_funcionario.Name = "btn_cad_funcionario";
-            this.btn_cad_funcionario.Size = new System.Drawing.Size(85, 80);
-            this.btn_cad_funcionario.TabIndex = 1;
-            this.btn_cad_funcionario.Text = "Cadastrar Funcionário";
-            this.btn_cad_funcionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_cad_funcionario.UseVisualStyleBackColor = false;
-            this.btn_cad_funcionario.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // btn_cad_Obra
-            // 
-            this.btn_cad_Obra.BackColor = System.Drawing.Color.Transparent;
-            this.btn_cad_Obra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btn_cad_Obra.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cad_Obra.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_cad_Obra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
-            this.btn_cad_Obra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_cad_Obra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cad_Obra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cad_Obra.ForeColor = System.Drawing.Color.Transparent;
-            this.btn_cad_Obra.Image = global::Programa.Properties.Resources.trabalhador_2;
-            this.btn_cad_Obra.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_cad_Obra.Location = new System.Drawing.Point(113, 41);
-            this.btn_cad_Obra.Name = "btn_cad_Obra";
-            this.btn_cad_Obra.Size = new System.Drawing.Size(85, 80);
-            this.btn_cad_Obra.TabIndex = 2;
-            this.btn_cad_Obra.Text = "Cadastrar Obra";
-            this.btn_cad_Obra.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btn_cad_Obra.UseVisualStyleBackColor = false;
-            // 
-            // funcionárioToolStripMenuItem
-            // 
-            this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.funcionárioToolStripMenuItem.Text = "Funcionário";
-            // 
-            // obraToolStripMenuItem
-            // 
-            this.obraToolStripMenuItem.Name = "obraToolStripMenuItem";
-            this.obraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.obraToolStripMenuItem.Text = "Obra";
-            // 
-            // ferramentaToolStripMenuItem
-            // 
-            this.ferramentaToolStripMenuItem.Name = "ferramentaToolStripMenuItem";
-            this.ferramentaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ferramentaToolStripMenuItem.Text = "Ferramenta";
-            // 
-            // insumoToolStripMenuItem
-            // 
-            this.insumoToolStripMenuItem.Name = "insumoToolStripMenuItem";
-            this.insumoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.insumoToolStripMenuItem.Text = "Insumos";
-            // 
-            // materiaisToolStripMenuItem
-            // 
-            this.materiaisToolStripMenuItem.Name = "materiaisToolStripMenuItem";
-            this.materiaisToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.materiaisToolStripMenuItem.Text = "Materiais";
-            // 
             // cadastroToolStripMenuItem
             // 
             this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -147,6 +74,38 @@
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
+            // 
+            // funcionárioToolStripMenuItem
+            // 
+            this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionárioToolStripMenuItem.Text = "Funcionário";
+            this.funcionárioToolStripMenuItem.Click += new System.EventHandler(this.funcionárioToolStripMenuItem_Click);
+            // 
+            // obraToolStripMenuItem
+            // 
+            this.obraToolStripMenuItem.Name = "obraToolStripMenuItem";
+            this.obraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.obraToolStripMenuItem.Text = "Obra";
+            this.obraToolStripMenuItem.Click += new System.EventHandler(this.obraToolStripMenuItem_Click);
+            // 
+            // ferramentaToolStripMenuItem
+            // 
+            this.ferramentaToolStripMenuItem.Name = "ferramentaToolStripMenuItem";
+            this.ferramentaToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.ferramentaToolStripMenuItem.Text = "Ferramenta";
+            // 
+            // insumoToolStripMenuItem
+            // 
+            this.insumoToolStripMenuItem.Name = "insumoToolStripMenuItem";
+            this.insumoToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.insumoToolStripMenuItem.Text = "Insumos";
+            // 
+            // materiaisToolStripMenuItem
+            // 
+            this.materiaisToolStripMenuItem.Name = "materiaisToolStripMenuItem";
+            this.materiaisToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.materiaisToolStripMenuItem.Text = "Materiais";
             // 
             // consultasToolStripMenuItem
             // 
@@ -185,6 +144,18 @@
             this.relatórioToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.relatórioToolStripMenuItem.Text = "Relatório";
             // 
+            // relatórioGeralToolStripMenuItem
+            // 
+            this.relatórioGeralToolStripMenuItem.Name = "relatórioGeralToolStripMenuItem";
+            this.relatórioGeralToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.relatórioGeralToolStripMenuItem.Text = "Relatório Geral";
+            // 
+            // relatórioExpecificoToolStripMenuItem
+            // 
+            this.relatórioExpecificoToolStripMenuItem.Name = "relatórioExpecificoToolStripMenuItem";
+            this.relatórioExpecificoToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.relatórioExpecificoToolStripMenuItem.Text = "Relatório Expecifico";
+            // 
             // ajudaToolStripMenuItem
             // 
             this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -196,20 +167,52 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
-            // relatórioGeralToolStripMenuItem
+            // btn_cad_funcionario
             // 
-            this.relatórioGeralToolStripMenuItem.Name = "relatórioGeralToolStripMenuItem";
-            this.relatórioGeralToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.relatórioGeralToolStripMenuItem.Text = "Relatório Geral";
+            this.btn_cad_funcionario.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cad_funcionario.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_cad_funcionario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cad_funcionario.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_cad_funcionario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.btn_cad_funcionario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_cad_funcionario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cad_funcionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cad_funcionario.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_cad_funcionario.Image = global::Programa.Properties.Resources.trabalhador_2;
+            this.btn_cad_funcionario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_cad_funcionario.Location = new System.Drawing.Point(12, 41);
+            this.btn_cad_funcionario.Name = "btn_cad_funcionario";
+            this.btn_cad_funcionario.Size = new System.Drawing.Size(85, 80);
+            this.btn_cad_funcionario.TabIndex = 1;
+            this.btn_cad_funcionario.Text = "Cadastrar Funcionário";
+            this.btn_cad_funcionario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_cad_funcionario.UseVisualStyleBackColor = false;
+            this.btn_cad_funcionario.Click += new System.EventHandler(this.btn_cad_funcionario_Click_1);
             // 
-            // relatórioExpecificoToolStripMenuItem
+            // btn_cad_Obra
             // 
-            this.relatórioExpecificoToolStripMenuItem.Name = "relatórioExpecificoToolStripMenuItem";
-            this.relatórioExpecificoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.relatórioExpecificoToolStripMenuItem.Text = "Relatório Expecifico";
+            this.btn_cad_Obra.BackColor = System.Drawing.Color.Transparent;
+            this.btn_cad_Obra.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btn_cad_Obra.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cad_Obra.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_cad_Obra.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.btn_cad_Obra.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_cad_Obra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cad_Obra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cad_Obra.ForeColor = System.Drawing.Color.Transparent;
+            this.btn_cad_Obra.Image = global::Programa.Properties.Resources.trabalhador_2;
+            this.btn_cad_Obra.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btn_cad_Obra.Location = new System.Drawing.Point(113, 41);
+            this.btn_cad_Obra.Name = "btn_cad_Obra";
+            this.btn_cad_Obra.Size = new System.Drawing.Size(85, 80);
+            this.btn_cad_Obra.TabIndex = 2;
+            this.btn_cad_Obra.Text = "Cadastrar Obra";
+            this.btn_cad_Obra.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btn_cad_Obra.UseVisualStyleBackColor = false;
+            this.btn_cad_Obra.Click += new System.EventHandler(this.btn_cad_Obra_Click);
             // 
             // frm_menu
             // 
