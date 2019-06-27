@@ -40,5 +40,23 @@ namespace Programa
             frm_Obras frm = new frm_Obras();
             frm.Show();
         }
+
+        private void ferramentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Ferramentas frm = new frm_Ferramentas();
+            frm.Show();
+        }
+
+        private void insumoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Insumos frm = new frm_Insumos();
+            frm.Show();
+        }
+
+        private void materiaisToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_Materiais frm = new frm_Materiais();
+            frm.Show();
+        }
     }
 }
